@@ -9,7 +9,7 @@ public class reverseNumber {
 		System.out.println("Enter a number : ");
 		int n=scan.nextInt();
 		int rev=0;
-		while(n!=0)
+		while(n != 0)
 		{
 			rev=rev* 10 +n %10;
 			n=n/10;
